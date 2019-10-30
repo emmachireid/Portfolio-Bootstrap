@@ -1,7 +1,11 @@
 /*global $, jQuery, alert*/
 $(document).ready(function() {
 
-  'use strict';
+  // 'use strict';
+  // $("#main-nav, #main-nav-subpage").slideDown(0);
+  // $("#main-nav-subpage").removeClass('subpage-nav'); 
+
+
 
   // ========================================================================= //
   //  //SMOOTH SCROLL
@@ -51,17 +55,23 @@ $(document).ready(function() {
   // ========================================================================= //
 
 
-  $(window).scroll(function() {
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 200 ) {
+    if (scroll > 100 ) {
       $("#main-nav, #main-nav-subpage").slideDown(700);
       $("#main-nav-subpage").removeClass('subpage-nav');
+      $("#main-nav").addClass('after-scroll');
+      $("#main-nav").removeClass('before-scroll');
     } else {
-      $("#main-nav").slideUp(700);
-      $("#main-nav-subpage").hide();
-      $("#main-nav-subpage").addClass('subpage-nav');
+      // $("#main-nav").slideUp(700);
+      // $("#main-nav-subpage").hide();
+      // $("#main-nav-subpage").addClass('subpage-nav');
+      $("#main-nav").addClass('before-scroll');
+      $("#main-nav").removeClass('after-scroll');
     }
   });
+
+
 
   // ========================================================================= //
   //  // RESPONSIVE MENU
@@ -85,25 +95,6 @@ $(document).ready(function() {
     });
   });
 
-
-  // ========================================================================= //
-  //  Owl Carousel Services
-  // ========================================================================= //
-
-
-  $('.services-carousel').owlCarousel({
-      autoplay: true,
-      loop: true,
-      margin: 20,
-      dots: true,
-      nav: false,
-      responsiveClass: true,
-      responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
-    });
-
-  // ========================================================================= //
-  //  magnificPopup
-  // ========================================================================= //
 
   var magnifPopup = function() {
     $('.popup-img').magnificPopup({
