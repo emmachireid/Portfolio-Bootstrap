@@ -48,6 +48,7 @@
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
   }
+
   #about .div-img-bg {
     padding: 0;
   }
@@ -119,6 +120,11 @@
   .head-info .header-content h1 {
     font-size: 32px;
   }
+  
+  #header {
+    height: 80vh;
+  }
+
   #about .div-img-bg {
     padding: 0;
   }
@@ -190,6 +196,15 @@
   .head-info .header-content h1 {
     font-size: 32px;
   }
+
+  #header {
+    height: 50vh;
+  }
+  
+  #header .header-content{
+  height: 60vh;
+  }
+
   #about .div-img-bg {
     padding: 0;
   }
