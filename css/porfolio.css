@@ -1,0 +1,105 @@
+/* Portflio page css */
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    margin-top: .3%;
+}
+
+
+.unordered-list {
+    list-style-type: bullets;
+}
+
+
+
+/* Navbar */
+
+#back {
+    background: #f7f2f2;
+    padding-bottom: 0px;
+    padding-top: 9%;
+    /* margin-top: 2%; */
+}
+
+/* Main content */
+
+/* PORTFOLIO */
+
+#portfolio-single {
+    padding-top: .5%;
+    position: relative;
+    padding-bottom: 50px;
+    background: #f7f2f2;
+}
+
+#portfolio-single .portfolio-list {
+    margin-bottom: 50px;
+}
+
+#portfolio-single .portfolio-list .nav {
+    display: inline-block;
+    margin: 0;
+}
+
+#portfolio-single .portfolio-list .nav li {
+    margin: 0 40px 0 0;
+    float: left;
+    font-size: 14px;
+    color: #717171;
+    line-height: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', helvetica;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    /* text-transform: lowercase; */
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#portfolio-single .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
+    color: #c0a176;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+#portfolio-single .portfolio-container {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.clickableimg {
+    height: 200px;
+    width: 250px;
+}
+
+#problem-research,
+#ideation,
+#design,
+#prototype-future {
+    display: none;
+}

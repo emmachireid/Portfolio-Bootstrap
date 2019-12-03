@@ -199,10 +199,15 @@
 
   #header {
     height: 50vh;
+    width: 110%;
   }
   
   #header .header-content{
   height: 60vh;
+  }
+
+  #about {
+    width: 110%;
   }
 
   #about .div-img-bg {
@@ -225,20 +230,30 @@
     margin: 10px;
     display: inline-block;
   }
-  /* journal */
-  #journal .journal-block .journal-info {
-    margin-bottom: 30px;
+ 
+  #services {
+    width: 110%;
   }
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
   }
+
+  #contact {
+    width: 110%;
+  }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
     margin-left: 0;
     float: none;
     display: inline-block;
+  }
+
+  #footer {
+    width: 110%;
   }
 }
 

@@ -43,8 +43,8 @@ h4 {
 }
 
 a {
-  color: #999999;
-  text-decoration: none !important;
+  color: #717171;
+  text-decoration: none; 
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -70,7 +70,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #717171;
   line-height: 28px;
 }
 
@@ -115,25 +115,6 @@ p {
   text-transform: uppercase;
 }
 
-.form-control {
-  /* background-color: transparent; */
-  border: 1px solid #999;
-  border-radius: 0;
-  color: #999999;
-  font-size: 12px;
-  font-weight: 500;
-  height: 50px;
-  letter-spacing: 0.1em;
-  padding-left: 10px;
-  margin: 0 0 25px 0;
-  line-height: 14px;
-  text-transform: uppercase;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  outline: 0 none;
-}
 
 .paddsection {
   padding-top: 90px;
@@ -254,9 +235,9 @@ nav ul li a:hover {
   font-size: 23px;
 }
 
-.active {
+/* .active {
   color: #292929;
-}
+} */
 
 /*----------------------------------------------------------------------------------*/
 /*  Header
@@ -290,7 +271,7 @@ nav ul li a:hover {
 
 .header-content p {
   font-size: 13px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
@@ -335,27 +316,27 @@ nav ul li a:hover {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: #717171;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
   /* text-transform: lowercase; */
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
   color: #c0a176;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 #portfolio .portfolio-container {
@@ -385,11 +366,11 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   background: #f7f2f2;
-  padding-top: 190px;
+  padding-top: 5%;
 }
 
 #about .div-img-bg {
-  padding-bottom: 30px;
+  padding-bottom: 5%;
   border: 20px solid #c0a176;
 }
 
@@ -413,7 +394,7 @@ nav ul li a:hover {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
-  color: #858585;
+  color: #717171;
   margin: 25px 0;
   font-size: 17px;
   line-height: 28px;
@@ -426,7 +407,8 @@ nav ul li a:hover {
 #services {
   background: #f7f2f2;
   /* position: relative; */
-  padding-bottom: 80px;
+  padding-bottom: 7%;
+  padding-top: 7%;
   width: 100%;
 }
 /* #services > div > div{
@@ -456,7 +438,7 @@ nav ul li a:hover {
   font-size: 13px;
   line-height: 22px;
   text-align: center;
-  color: #858585;
+  color: #717171;
   max-width: 100%;
   margin-bottom: 0;
   margin: 20px 40px;
@@ -490,48 +472,11 @@ nav ul li a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #858585;
+  color: #717171;
 }
 
 .contact-details li {
   padding-bottom: 10px;
-}
-
-#contact input, #contact textarea {
-  width: 100%;
-}
-
-
-#contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact  #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
-  display: block;
-}
-
-#contact .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
 }
 
 .get {
@@ -575,7 +520,7 @@ nav ul li a:hover {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: #717171;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
