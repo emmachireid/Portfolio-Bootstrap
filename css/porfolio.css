@@ -4,11 +4,12 @@ h3 {
     font-size: 25px;
     margin-top: 5%;
     margin-bottom:2%;
+    text-transform: uppercase;
 }
 
 h4 {
     font-size: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     margin-bottom: 3%;
     text-decoration: underline;
@@ -106,7 +107,7 @@ ul li{
 }
 
 
-.tab2 {
+.tab2, .tab3, .tab4 {
     cursor:pointer;
 }
 
@@ -139,6 +140,11 @@ ul li{
     margin-top: -30px;
 }
 
+#surveyimg {
+    height: 150px;
+    width: 150px;
+}
+
 #transcriptions {
     height: 300px;
     width: 100%;
@@ -151,8 +157,8 @@ ul li{
 
 
 
-/* #problem-research, */
-#ideation,
+#problem-research,
+/* #ideation, */
 #design,
 #prototype-future {
     display: none;

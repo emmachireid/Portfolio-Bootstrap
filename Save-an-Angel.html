@@ -174,17 +174,30 @@
             <br>
 
             <h4> Survey Results</h4>
-            <ul>
-              <li> 91% of people had interest in volunteering </li>
-              <li> 84% of people find out about opportunities to give through social media </li>
-              <li> 85% of people think it is important to see the difference their donation is making </li>
-            </ul>
+            <p class = "text-center"> Survey total: 80 responses. </p>
+
+            <div class = "row">
+              <div class = "col-md-2"></div>
+              <div class = "col-md-2 text-center"> 
+                <img src = "images/portfolio/SAA Images/Survey91.png" id="surveyimg"> 
+                <p><br> had interest in volunteering</p> </div>
+              <div class = "col-md-1"></div>
+              <div class = "col-md-2 text-center" > 
+                <img src = "images/portfolio/SAA Images/Survey85.png" id="surveyimg"> 
+                <p> <br> think it's important to see the difference their donation is making</p></div>
+              <div class = "col-md-1"></div>
+              <div class = "col-md-2 text-center"> 
+                <img src = "images/portfolio/SAA Images/Survey84.png" id="surveyimg"> 
+                <p> <br> find out about opportunities to give through social media</p></div>
+              <div class = "col-md-2"></div>
+            </div>
 
             <br>
             <hr>
             <br>
 
             <h4> Usability Testing Results</h4>
+            <br>
             <br>
             <div class="row">
               <div class="col-md-6">
@@ -218,6 +231,7 @@
             <br>
 
             <h4> Interviews</h4>
+            <br>
             <div class="row">
               <div class="col-md-6">
                 <p>After creating a script for user interviews, our team members individually proceeded to conduct user
@@ -276,43 +290,94 @@
 
             <div class="container">
               <div class="row">
-
-                <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
 
                   <button type="button" class="btn btn-dark tab2">Next Up: Ideation</button>
 
                 </div>
-
+                <div class="col-md-4"></div>
               </div>
             </div>
           </div>
-
-
-
 
 
           <div class="container" id="ideation">
             <h3>Ideation</h3>
 
             <h4>Empathy Map</h4>
+            <br>
+            <hr>
+            <br>
             <h4>Feature Prioritization</h4>
+            <br>
+            <hr>
+            <br>
             <h4>User Scenario/Journey</h4>
+            <br>
+            <hr>
+            <br>
             <h4>Sitemap</h4>
+            <br>
+            <hr>
+            <br>
             <h4>Storyboard</h4>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-4">
+  
+                    <button type="button" class="btn btn-dark tab3">Next Up: Design and Tests</button>
+  
+                  </div>
+                  <div class="col-md-4"></div>
+                </div>
+              </div>
             
 
           </div>
+
+
+
+
+
+
+
+          
 
           <div class="container" id="design">
             <h3>Design and User Tests</h3>
 
             <h4>Style Tile</h4>
+            <br>
+            <hr>
+            <br>
             <h4>Low-fi Sketches</h4>
+            <br>
+            <hr>
+            <br>
             <h4>Wireframes</h4>
+            <br>
+            <hr>
+            <br>
             <h4>AB Testing</h4>
+            
             <p>Dropdowns vs Sidebar: For mobile, use slide-Up Menu with Dropdown Sub-Navigation. For web, we sticked
               to dropdowns.
             </p>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6">
+  
+                    <button type="button" class="btn btn-dark tab4">Next Up: Final Prototypes and Future Expansion</button>
+  
+                  </div>
+                  <div class="col-md-3"></div>
+                </div>
+              </div>
 
           </div>
 
@@ -392,12 +457,6 @@
       <!-- <p>&copy; Copyrights Folio. All rights reserved.</p> -->
 
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
-        -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
 
@@ -441,6 +500,16 @@
     $(".tab2").click(function () {
       $("#ideation").toggle();
     });
+
+    $(".tab3").click(function () {
+      $("#design").toggle();
+    });
+
+    $(".tab4").click(function () {
+      $("#prototype-future").toggle();
+    });
+
+    
   </script>
 
 
