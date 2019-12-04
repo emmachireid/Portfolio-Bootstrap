@@ -401,3 +401,31 @@
     margin-right: 0;
   }
 }
+
+
+/* --------------- */
+
+@media (min-width: 800px) and (max-width: 1199px){
+  #meetingpic {
+      height: 300px;
+      width: 412.5px;
+      object-fit: fill;
+      margin-top: 2%;
+      margin-right: 2%;
+  } 
+}
+
+@media (max-width: 767px) {
+  #meetingpic {
+      height: 200px;
+      width: 275px;
+      object-fit: fill;
+      margin-top: 2%;
+      margin-right: 2%;
+      margin-left: 15%;
+  } 
+
+  #swot {
+    height: 270px;
+  }
+}

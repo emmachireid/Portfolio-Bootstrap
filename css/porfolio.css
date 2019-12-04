@@ -2,18 +2,25 @@
 
 h3 {
     font-size: 20px;
+    margin-top: 5%;
+    margin-bottom:2%;
 }
 
 h4 {
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 p {
     margin-top: .3%;
+    color: #212529
 }
 
+ul li{
+    font-size: 15px;
+}
 
 .unordered-list {
     list-style-type: bullets;
@@ -26,7 +33,7 @@ p {
 #back {
     background: #f7f2f2;
     padding-bottom: 0px;
-    padding-top: 9%;
+    padding-top: 8%;
     /* margin-top: 2%; */
 }
 
@@ -85,19 +92,48 @@ p {
 }
 
 
+.tab2 {
+    cursor:pointer;
+}
 
 
 
 
-
-
+/* images */
 
 .clickableimg {
     height: 200px;
     width: 250px;
 }
 
-#problem-research,
+#meetingpic {
+    height: 400px;
+    width: 550px;
+    object-fit: fill;
+    margin-top: 4%;
+    
+}
+
+#swot {
+    height: 600px;
+    width: 100%;
+} 
+
+#usability1{
+    height: 400px;
+    width: 530px;
+    margin-top: -30px;
+}
+
+#transcriptions {
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
+/* #problem-research, */
 #ideation,
 #design,
 #prototype-future {
