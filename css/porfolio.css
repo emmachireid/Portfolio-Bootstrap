@@ -117,8 +117,8 @@ ul li{
 /* images */
 
 .clickableimg {
-    height: 200px;
-    width: 250px;
+    height: 450px;
+    width: 100%;;
 }
 
 #meetingpic {
@@ -155,7 +155,11 @@ ul li{
     margin-top: -7%;
 }
 
-
+#empathy {
+    width: 100%;
+    height: 650px;
+    margin-top: -5%;
+}
 
 #problem-research,
 /* #ideation, */
