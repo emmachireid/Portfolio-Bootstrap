@@ -1,16 +1,17 @@
 /* Portflio page css */
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 5%;
     margin-bottom:2%;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 3%;
+    text-decoration: underline;
 }
 
 p {
@@ -26,6 +27,19 @@ ul li{
     list-style-type: bullets;
 }
 
+.btn {
+    font-family: 'Poppins', Helvetica;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    background-color: #292929;
+    width: 100%;
+}
+
+
+#back-click {
+    height: 15px;
+    margin-bottom: .2%;
+}
 
 
 /* Navbar */
@@ -60,7 +74,7 @@ ul li{
 #portfolio-single .portfolio-list .nav li {
     margin: 0 40px 0 0;
     float: left;
-    font-size: 14px;
+    font-size: 15px;
     color: #717171;
     line-height: 16px;
     cursor: pointer;
@@ -130,6 +144,10 @@ ul li{
     width: 100%;
 }
 
+#userpersonaimg {
+    width: 100%;
+    margin-top: -7%;
+}
 
 
 
