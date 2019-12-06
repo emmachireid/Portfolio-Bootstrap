@@ -12,7 +12,7 @@
 body {
   background: #ffffff;
   /* color: #898989; */
-  font-family: 'Poppins', helvetica;
+  font-family: 'Montserrat', helvetica;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -138,6 +138,16 @@ p {
   margin-bottom: 30px;
 }
 
+#portfolio-container {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* #portfolio h1 {
+  font-family: 'Roboto', sans-serif;
+} */
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
@@ -183,7 +193,6 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: white;
-  font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: lowercase;
@@ -319,7 +328,7 @@ nav ul li a:hover {
   color: #717171;
   line-height: 16px;
   cursor: pointer;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Montserrat', helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
   /* text-transform: lowercase; */
@@ -384,7 +393,7 @@ nav ul li a:hover {
 }
 
 .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', serif;
   font-size: 28px;
   text-align: left;
   color:#717171;
@@ -455,7 +464,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
 }
-
 
 
 /*-----------------------------------------------------------------------------------*/
