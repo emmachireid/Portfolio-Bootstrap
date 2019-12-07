@@ -12,7 +12,8 @@ h3 {
     margin-top: 5%;
     margin-bottom:2%;
     text-transform: uppercase;
-    color: #455CA0
+    color: #455CA0;
+    font-weight: 700;
  
 }
 
@@ -68,6 +69,10 @@ ul li{
 
 .header-hrFINAL {
     margin-top: 7%;
+}
+
+hr{
+    border-color: #EB5629;
 }
 
 
@@ -217,16 +222,31 @@ ul li{
     width: 100%;
 }
 
-#NavMobile {
+#NavAB {
     width: 100%;
 }
 
+#phoneicon {
+    height: auto;
+    width: 60px;
+    padding-bottom: 6%;
+    margin-left: 40%;
+}
 
+#laptopicon {
+    height: auto;
+    width: 160px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
+
+/* 
 #problem-research,
 #ideation,
-/* #design, */
+#design,
 #prototype-future {
     display: none;
-}
+} */
 
 
