@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+
 h2 {
   color: #292929;
   font-weight: 600;
@@ -272,7 +273,7 @@ nav ul li a:hover {
 
 .header-content h1 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
@@ -415,55 +416,25 @@ nav ul li a:hover {
 
 #services {
   background: #f7f2f2;
-  /* position: relative; */
   padding-bottom: 7%;
   padding-top: 7%;
   width: 100%;
 }
-/* #services > div > div{
-  display: flex;
-  justify-content: center;
-} */
 
-.services-carousel {
-  display: flex;
-  justify-content: center;
+
+#service-icons {
+  height: 70%;
+  width: 70%;
 }
 
-.services-block span {
-  margin: 10px 0;
-  /* position: relative; */
-  font-size: 13px;
-  color: #292929;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-}
-
-.services-block .separator {
-  /* margin: 0 !important; */
-  font-size: 13px;
-  line-height: 22px;
-  text-align: center;
-  color: #717171;
-  max-width: 100%;
-  margin-bottom: 0;
-  margin: 20px 40px;
-  display: flex;
-  justify-content: center;
-}
-
-
-
+/* 
 .services-block i {
   font-size: 44px;
   color: #c0a176;
   line-height: 44px;
   display: flex;
   justify-content: center;
-}
+} */
 
 
 /*-----------------------------------------------------------------------------------*/
