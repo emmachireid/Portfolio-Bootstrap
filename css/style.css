@@ -394,10 +394,10 @@ nav ul li a:hover {
 }
 
 .p-heading {
-  font-family: 'Roboto', serif;
+  /* font-family: 'Roboto', serif; */
   font-size: 28px;
   text-align: left;
-  color:#717171;
+  color:#292929;
 }
 
 .about-separator {
@@ -423,18 +423,10 @@ nav ul li a:hover {
 
 
 #service-icons {
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
 }
 
-/* 
-.services-block i {
-  font-size: 44px;
-  color: #c0a176;
-  line-height: 44px;
-  display: flex;
-  justify-content: center;
-} */
 
 
 /*-----------------------------------------------------------------------------------*/
