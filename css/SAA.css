@@ -1,8 +1,16 @@
 /* Portflio page css */
+/* 
+#hello {
+    margin-top:5%;
+} */
+
+nav{
+    position: relative;
+}
 
 .section-title h1 {
     letter-spacing: 2px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
   }
   
@@ -12,22 +20,28 @@ h3 {
     margin-top: 5%;
     margin-bottom:2%;
     text-transform: uppercase;
-    /* color: #455CA0; */
-    color: black;
-    font-weight: 700;
+    color: #455CA0;
+    /* color: black; */
+    /* font-weight: 700; */
     letter-spacing: 2px;
  
 }
+
 
 h4 {
     font-size: 27px;
     text-align: center;
     margin-bottom: 3%;
+    font-weight: bold;
     font-family: 'montserrat';
     /* letter-spacing: 2px; */
     /* color: #455CA0; */
-    
 }
+
+h5 {
+    font-size: 20px;
+}
+
 
 p {
     margin-top: .3%;
@@ -80,16 +94,16 @@ ul li{
 }
 
 hr{
-    border-color: #EB5629;
+    /* border-color: #EB5629; */
 }
 
 
 /* Navbar */
 
 #back {
-    background: #f7f2f2;
+    /* background: #f7f2f2; */
     padding-bottom: 0px;
-    padding-top: 8%;
+    padding-top: 2%;
     /* margin-top: 2%; */
 }
 
@@ -100,14 +114,14 @@ hr{
 #portfolio-bkgd {
     background: white;
     padding-top: .5%;
-    box-shadow: 0px 3px 10px #C1C1C1;
+    /* box-shadow: 0px 3px 10px #C1C1C1; */
 }
 
 #portfolio-single {
     padding-top: .5%;
     position: relative;
     padding-bottom: 50px;
-    background: #f7f2f2;
+    /* background: #f7f2f2; */
 }
 
 #portfolio-single .portfolio-list {
@@ -163,6 +177,10 @@ hr{
     text-transform: uppercase;
 }
 
+#contact {
+    background: #f7f2f2;
+}
+
 
 
 /* SAA images */
@@ -173,8 +191,15 @@ hr{
 
 .clickableimg {
     height: 450px;
-    width: 100%;;
+    width: 100%;
+    opacity: 1;
+    transition: .3s ease;
+    /* backface-visibility: hidden; */
 }
+.clickableimg:hover {
+    opacity: 0.6;
+}
+
 
 #meetingpic {
     height: 400px;
