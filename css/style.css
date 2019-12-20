@@ -31,15 +31,23 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4rem;
+}
 
 h2 {
   color: #292929;
   font-weight: 600;
+  font-size: 3.5rem;
 }
 
 h4 {
   color: #292929;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
@@ -68,11 +76,12 @@ a:hover, a:focus {
 
 
 p {
-  margin: 25px 0;
+  /* margin: 25px 0; */
   padding: 0;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #717171;
   line-height: 28px;
+  font-family: 'Open Sans';
 }
 
 ::-moz-selection {
@@ -84,7 +93,7 @@ p {
   background: #c0a176;
   color: #fff;
 }
-
+/* 
 .btn {
   background: #333;
   border: medium none;
@@ -95,7 +104,7 @@ p {
   line-height: 50px;
   padding: 0 30px;
   text-transform: uppercase;
-}
+} */
 
 .btn:hover, .btn:focus {
   color: #fff;
@@ -192,7 +201,7 @@ nav ul li a {
   /* padding: 1px 0 0 0; */
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #292929;
   font-weight: 500;
   line-height: 16px;
@@ -242,7 +251,7 @@ nav ul li a:hover {
 
 .responsive {
   display: none;
-  font-size: 23px;
+  font-size: 2.3rem;
 }
 
 /* .active {
@@ -272,7 +281,7 @@ nav ul li a:hover {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 900;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -280,7 +289,7 @@ nav ul li a:hover {
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 1.3rem;
   letter-spacing: 4px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -296,7 +305,7 @@ nav ul li a:hover {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 #subtext{
   text-transform: lowercase;
@@ -325,7 +334,7 @@ nav ul li a:hover {
 #portfolio .portfolio-list .nav li {
   margin: 0 40px 0 0;
   float: left;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #717171;
   line-height: 16px;
   cursor: pointer;
@@ -396,9 +405,10 @@ nav ul li a:hover {
 
 .p-heading {
   /* font-family: 'Roboto', serif; */
-  font-size: 28px;
+  font-size: 2.8rem;
   text-align: left;
   color:#292929;
+  font-weight: bold;
 }
 
 .about-separator {
@@ -491,7 +501,7 @@ nav ul li a:hover {
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 2.4rem;
   color: #717171;
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -514,7 +524,7 @@ nav ul li a:hover {
 }
 
 #footer p {
-  font-size: 12px;
+  font-size: 1.2rem;
   letter-spacing: 0.1em;
   font-weight: 500;
   margin-top: 0;
@@ -522,5 +532,5 @@ nav ul li a:hover {
 }
 
 .credits {
-  font-size: 13px;
+  font-size: 1.3rem;
 }
