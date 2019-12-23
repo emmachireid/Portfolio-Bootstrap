@@ -51,6 +51,11 @@ h4 {
   font-weight: 600;
 }
 
+h6 {
+  font-size: 1.4rem;
+  color: #292929;
+}
+
 a {
   color: #717171;
   text-decoration: none; 

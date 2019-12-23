@@ -89,7 +89,7 @@ $(window).scroll(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Emma Reid.", "a Designer."],
+      strings: ["Emma Reid.", "a UX Designer."],
       typeSpeed: 100,
       loop: true,
     });
