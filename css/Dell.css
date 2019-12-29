@@ -3,66 +3,42 @@
 .section-title h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 nav{
     position: relative;
 }
 
-h3 {
-    font-size: 3.7rem;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    text-transform: uppercase;
-    /* color: black; */
-    color: #263F9B;
-    /* font-weight: 700; */
-    letter-spacing: 2px;
-    
-
+blockquote {
+    border: 1px solid #717171;
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+    border-width: 0 0 0 1px;
 }
 
-h4 {
-    font-size: 2.7rem; 
-    color: #717171;
-    /* color: #080D20; */
-    /* text-align: center; */
-    margin-bottom: 3%;
-    font-family: 'montserrat';
-    font-weight: bold;
-    /* letter-spacing: 2px; */
-    /* color: #263F9B; */
-}
-
-h5 {
-    font-size: 2rem;
-}
-
-h6 {
-    font-size: 1.5rem;
-    color: #717171;
-}
 
 p {
     margin-top: .3%;
-    /* color: #212529 */
-    color: #717171;
-    font-family: 'Open Sans';
 }
 
 li {
     color: #717171;
 }
 
+ol li {
+    font-size: 1.6rem;
+    font-weight: 600;;
+}
+
 strong {
+    font-family: 'montserrat';
     color: black;
 }
 
 .subheader {
     font-family: 'Open Sans';
     color: #717171;
-
 }
 
 ul li {
@@ -77,12 +53,21 @@ ul li {
     font-family: 'Montserrat', Helvetica;
     letter-spacing: 2px;
     border-radius: 4px;
-    background-color: #292929;
-    color: white;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
     width: 100%;
     margin-top: 5%;
     height: 40px;
     text-transform: uppercase;
+    background-color: #263F9B;
+    background-color:  #c0a176;
+}
+
+.btn:hover {
+    background-color: #080D20;
+    /* background-color: #263F9B; */
 
 }
 
@@ -191,16 +176,6 @@ hr {
     text-transform: uppercase;
 }
 
-.btn {
-    /* background-color: #080D20; */
-    background-color: #263F9B;
-}
-
-.btn:hover {
-    background-color: #080D20;
-    /* background-color: #263F9B; */
-
-}
 
 
 /* DELL images */
@@ -229,15 +204,15 @@ hr {
     width: 100%;
 }
 
-#survey {
-    height: 70px;
-    margin-bottom: 10%;
+#researchicons {
+    width: 30%;
 }
 
-#survey2 {
+#testsurvey {
     height: 70px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
+
 
 #usability1 {
     /* height: 400px; */
@@ -268,6 +243,11 @@ hr {
     width: 100%;
     height: 100%;
     margin-top: -10%;
+}
+
+#triads2 {
+    width: 100%;
+    height: 60%;
 }
 
 #businessmodel {

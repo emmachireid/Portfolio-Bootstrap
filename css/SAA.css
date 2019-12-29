@@ -8,44 +8,20 @@ nav{
     position: relative;
 }
 
+
+a:hover {
+    color: #c0a176;
+}
+
 .section-title h1 {
     letter-spacing: 2px;
     /* text-transform: uppercase; */
-    font-weight: 700;
-  }
+    font-weight: 500;
+}
   
-
-h3 {
-    font-size: 35px;
-    margin-top: 5%;
-    margin-bottom:2%;
-    text-transform: uppercase;
-    color: #455CA0;
-    /* color: black; */
-    /* font-weight: 700; */
-    letter-spacing: 2px;
- 
-}
-
-
-h4 {
-    font-size: 27px;
-    /* text-align: center; */
-    margin-bottom: 3%;
-    font-weight: bold;
-    font-family: 'montserrat';
-    /* letter-spacing: 2px; */
-    /* color: #455CA0; */
-}
-
-h5 {
-    font-size: 20px;
-}
-
 
 p {
     margin-top: .3%;
-    /* color: #212529 */
     color: #717171;
 }
 

@@ -40,20 +40,47 @@ h1 {
 }
 
 h2 {
-  color: #292929;
-  font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 4rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  /* color: black; */
+  /* color: #263F9B; */
+  color: #c0a176;
+  /* font-weight: 700; */
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'montserrat';
+  font-size: 3rem; 
+  /* color: #717171; */
+  color: #080D20;
+  margin-bottom: 3%;
+  /* font-style: italic; */
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 h4 {
-  color: #292929;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 2.7rem; 
+  /* color: #717171; */
+  color: #080D20;
+  margin-bottom: 3%;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 2rem;
 }
 
 h6 {
-  font-size: 1.4rem;
-  color: #292929;
+  font-size: 1.5rem;
+  color: #717171;
 }
 
 a {
@@ -98,18 +125,7 @@ p {
   background: #c0a176;
   color: #fff;
 }
-/* 
-.btn {
-  background: #333;
-  border: medium none;
-  border-radius: 0;
-  color: #fff;
-  font-size: 12px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 30px;
-  text-transform: uppercase;
-} */
+
 
 .btn:hover, .btn:focus {
   color: #fff;
