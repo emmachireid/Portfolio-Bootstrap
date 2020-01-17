@@ -325,6 +325,10 @@
     float: none;
     display: inline-block;
   }
+
+  h1 {
+    font-size: 4.5rem;
+  }
 }
 
 /** Width between 320px to 0

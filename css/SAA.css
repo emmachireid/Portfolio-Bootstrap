@@ -13,9 +13,9 @@ a:hover {
     color: #c0a176;
 }
 
-.section-title h1 {
+.section-title h2 {
     letter-spacing: 2px;
-    /* text-transform: uppercase; */
+    text-transform: none;
     font-weight: 500;
 }
   

@@ -36,11 +36,11 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-top: 5%;
   margin-bottom: 2%;
   text-transform: uppercase;
@@ -59,8 +59,9 @@ h3 {
   color: #080D20;
   margin-bottom: 3%;
   /* font-style: italic; */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 400;
+  margin-top: 8%;
 }
 
 h4 {
@@ -84,21 +85,21 @@ h6 {
 }
 
 a {
-  color: #717171;
+  color: black;
   text-decoration: none; 
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 a:hover {
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 a:hover, a:focus {
@@ -138,12 +139,6 @@ p {
 .section-title {
   margin-bottom: 50px;
   margin-top: 3%;
-}
-
-.section-title h2 {
-  font-size: 25px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 
@@ -302,10 +297,10 @@ nav ul li a:hover {
 }
 
 .header-content h1 {
-  font-size: 4rem;
-  font-weight: 900;
+  /* font-size: 4rem; */
+  /* font-weight: 900; */
   margin-bottom: 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
 }
 
@@ -406,6 +401,7 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   background: #f7f2f2;
+  background: white;
   padding-top: 5%;
   padding-bottom:5%;
 }
@@ -448,6 +444,7 @@ nav ul li a:hover {
 
 #services {
   background: #f7f2f2;
+  background: white;
   padding-bottom: 7%;
   padding-top: 7%;
   width: 100%;
@@ -528,20 +525,20 @@ nav ul li a:hover {
   font-weight: 500;
   background: transparent;
   text-transform: uppercase;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 #footer .socials-media ul li a:hover {
   color: #c0a176;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 #footer p {
