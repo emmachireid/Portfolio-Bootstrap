@@ -1,5 +1,10 @@
 /* Portflio page css */
 
+.row {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
 .section-title h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -186,54 +191,25 @@ hr {
 .clickableimg {
     /* height: 450px; */
     width: 100%;
-
 }
 
 #proto {
     width: 100%;
 }
 
-#redline {
-    width: 100%;
-}
-
-#swots {
-    /* height: 600px; */
-    width: 100%;
-}
-
-#researchicons {
-    width: 30%;
-}
-
 #findings {
     width:100%;
-}
-
-
-#usability1 {
-    /* height: 400px; */
-    width: 100%;
-    margin-top: -30px;
 }
 
 #survey {
     width: 100%;
 }
 
-#surveyimg {
-    height: 150px;
-    width: 150px;
-}
 
-#findingicons {
-    width: 15%;
-}
-
-#transcriptions {
+/* #transcriptions {
     height: 300px;
     width: 100%;
-}
+} */
 
 #userpersonaimg {
     width: 100%;
@@ -252,52 +228,15 @@ hr {
     margin-top: -10%;
 }
 
-#businessmodel {
-    width: 100%;
-    /* height: 130%; */
-}
-
-#sitemap {
-    width: 100%;
-    /* height: 600px; */
-}
-
-#storyboard {
-    width: 100%;
-}
-
-#styleguide {
-    width: 100%;
-}
-
 #sketches {
     width: 100%;
     height: auto;
 }
 
-#NavAB {
+#midfiresults {
     width: 100%;
+    margin-top: 20%;
 }
-
-#phoneicon {
-    height: auto;
-    width: 60px;
-    padding-bottom: 6%;
-    margin-left: 40%;
-}
-
-#laptopicon {
-    height: auto;
-    width: 160px;
-    margin-top: 3%;
-    margin-bottom: 10%;
-    margin-left: 25%;
-}
-
-#navmobilevid {
-    width: 100%;
-}
-
 
 #donationvideo {
     width: 100%;
@@ -310,3 +249,4 @@ hr {
 #prototype-future {
     display: none;
 } */
+
