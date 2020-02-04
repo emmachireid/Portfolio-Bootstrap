@@ -851,26 +851,29 @@
           <!-- <div class = "col-md-1"></div> -->
         </div>
 
-        <br>
-
+        <br><br>
+        
+        <h4>Hifi Testing</h4>
         <div class="row">
           <div class="col-md-6">
-            <h4>Hifi Testing</h4>
-            <p>Tested 5 users with a 5 second test, and had them compare the 3 user flows between our prototype and
-              Dell's page.</p>
-              <br><br>
+            <p>We conducted 5 gorilla user tests to gain the impact that our design had on users. We first had the users
+              conduct a 5 second test to gain the initial reaction of our prototype.
+            </p>
+            <br><br>
             <h5>5 Second Test</h5>
-            <p>Futuristic, Eye-catching, Fashionable - "I didn't catch what the website was about, but the photo makes
-              me
-              want to look into it more."</p>
-              <br><br>
-            <h5>Comparison Test</h5>
-            <p>What Users said</p>
+            <br>
+            <p> <strong> - "I didn't
+                catch what the website was about, but the photo makes
+                me want to look into it more."</strong><br>Users were instantly drawn into the large, high-resolution
+              image
+              on our landing page. The color and the tone of the website gave the initial impact that it was a clean,
+              futuristic, fashionable, and eye-catching website.</p>
           </div>
           <div class="col-md-6 text-center">
-            <img src = "images/portfolio/DELL images/Hifi/HIFI quotes.png">
+            <img src="images/portfolio/DELL images/Hifi/HIFI quotes.png">
           </div>
         </div>
+
       </div>
 
 
@@ -894,8 +897,7 @@
             <br><br><br><br>
             <h3>Final Product</h3>
 
-            <p>Using HTML, CSS, Bootstrap, and some Javascript, the Co-developer and I coded our final
-              prototype to the best of our abilities.
+            <p>Using HTML, CSS, Bootstrap, and some Javascript, the Co-developer and I created the responsive Dell sub-site. </p>
               <br>
               <div class="row">
                 <div class="col-md-8">
@@ -917,7 +919,13 @@
         <br><br><br><br><br>
         <!-- Future Expansion -->
         <h4>Coding Opportunities</h4>
-        <ul>
+        <div class = "row">
+          <div class = "col-md-1"></div>
+          <div class = "col-md-10">
+            <img src = "images/portfolio/DELL images/Coding Opportunities.png" id="sketches">
+          </div>
+        </div>
+        <!-- <ul>
           <li>Cart Page
             <ul>
               <li>Make the sticky-order summary responsive</li>
@@ -932,7 +940,16 @@
               <li>Enable extended search bar</li>
             </ul>
           </li>
-        </ul>
+        </ul> -->
+
+        <div class = "row">
+          <div class = "col-md-4"></div>
+          <div class = "col-md-4">
+            <button type="button" class="btn btn-outline-dark" id="back">Back to Top</button>
+          </div>
+          <div class = "col-md-4"></div>
+        </div>
+
       </div>
 
 
@@ -1013,33 +1030,13 @@
 
 
   <script>
-    $("#tab1").click(function () {
-      $("#problem-research").toggle();
-    });
-
-    $("#tab2").click(function () {
-      $("#ideation").toggle();
-    });
-
-    $("#tab3").click(function () {
-      $("#design").toggle();
-    });
-
-    $("#tab4").click(function () {
-      $("#prototype-future").toggle();
-    });
-
-    $(".tab2").click(function () {
-      $("#ideation").toggle();
-    });
-
-    $(".tab3").click(function () {
-      $("#design").toggle();
-    });
-
-    $(".tab4").click(function () {
-      $("#prototype-future").toggle();
-    });
+    $('#back').click(function(){
+      // when arrow is clicked
+      $('body,html').animate({
+        scrollTop:0
+        // Scroll to top of body
+      }, 500);
+    })
   </script>
 
 
