@@ -1,8 +1,17 @@
 /* Portflio page css */
-/* 
-#hello {
-    margin-top:5%;
-} */
+
+.row {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+blockquote {
+    border: 1px solid #717171;
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+    border-width: 0 0 0 1px;
+}
 
 nav{
     position: relative;
@@ -70,9 +79,7 @@ ul li{
     margin-top: 7%;
 }
 
-hr{
-    /* border-color: #EB5629; */
-}
+
 
 
 /* Navbar */
@@ -83,6 +90,8 @@ hr{
     padding-top: 2%;
     /* margin-top: 2%; */
 }
+
+
 
 /* Main content */
 
@@ -144,9 +153,10 @@ hr{
 }
 
 
+/* ------------------PAGE--------------------- */
 
-.tab2, .tab3, .tab4 {
-    cursor:pointer;
+#heroname {
+    text-align:right;
 }
 
 
@@ -184,10 +194,9 @@ hr{
 
 
 #meetingpic {
-    height: 400px;
+    height: auto;
     width: 100%;;
     /* margin-top: 6%; */
-    
 }
 
 #swot {
