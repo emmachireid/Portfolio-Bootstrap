@@ -16,10 +16,11 @@ nav{
 }
 
 blockquote {
-    border: 1px solid #717171;
+    /* border: 1px solid #717171; */
+    border: 21px solid #c0a176;
     margin: 1em 0;
     padding: 0 0 0 2em;
-    border-width: 0 0 0 1px;
+    border-width: 0 0 0 2px;
 }
 
 
