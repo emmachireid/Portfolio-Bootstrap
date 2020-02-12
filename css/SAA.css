@@ -7,10 +7,11 @@
 
 
 blockquote {
-    border: 1px solid #717171;
+    /* border: 1px solid #717171; */
+    border: 21px solid #c0a176;
     margin: 1em 0;
     padding: 0 0 0 2em;
-    border-width: 0 0 0 1px;
+    border-width: 0 0 0 2px;
 }
 
 nav{
@@ -39,8 +40,8 @@ li {
     font-family: 'Open Sans';
 }
 
-
 strong {
+    font-family: 'montserrat';
     color: black;
 }
 
@@ -207,8 +208,8 @@ ul li{
 
 #usability1{
     width: 100%;
-    height: 90%;
-    margin-top: -30px;
+    height: auto;
+    margin-top: 5%;
 }
 
 #surveyimg {
