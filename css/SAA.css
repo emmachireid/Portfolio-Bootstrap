@@ -5,6 +5,12 @@
     margin-bottom: 3%;
 }
 
+#colored {
+    background: #F8F1E5;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
 
 blockquote {
     /* border: 1px solid #717171; */
@@ -14,7 +20,7 @@ blockquote {
     border-width: 0 0 0 2px;
 }
 
-nav{
+nav {
     position: relative;
 }
 
@@ -28,7 +34,7 @@ a:hover {
     text-transform: none;
     font-weight: 500;
 }
-  
+
 
 p {
     margin-top: .3%;
@@ -51,7 +57,7 @@ strong {
 
 }
 
-ul li{
+ul li {
     font-size: 15px;
 }
 
@@ -81,7 +87,25 @@ ul li{
     margin-top: 7%;
 }
 
+.btn {
+    font-family: 'Montserrat', Helvetica;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 5%;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #263F9B;
+    background-color:  #c0a176;
+}
 
+.btn:hover {
+    background-color: #080D20;
+}
 
 
 /* Navbar */
@@ -166,9 +190,6 @@ ul li{
     text-transform: uppercase;
 }
 
-#contact {
-    background: #f7f2f2;
-}
 
 #hero {
     margin-top: 5%;
@@ -190,6 +211,7 @@ ul li{
     padding-bottom: 5%;
     /* backface-visibility: hidden; */
 }
+
 .clickableimg:hover {
     opacity: 0.6;
 }
@@ -197,24 +219,27 @@ ul li{
 
 #meetingpic {
     height: auto;
-    width: 100%;;
+    width: 100%;
+    ;
     /* margin-top: 6%; */
 }
 
 #swot {
     height: 600px;
     width: 100%;
-} 
+}
 
-#usability1{
+#usability1 {
     width: 100%;
     height: auto;
     margin-top: 5%;
 }
 
 #surveyimg {
-    height: 150px;
-    width: 150px;
+    /* height: 150px; */
+    /* width: 150px; */
+width: 70%;;
+height: auto;
 }
 
 #survey {
@@ -298,5 +323,4 @@ ul li{
 #prototype-future {
     display: none;
 } */
-
 
