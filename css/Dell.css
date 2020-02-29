@@ -93,6 +93,13 @@ hr {
     /* border-color: #999999; */
 }
 
+#colored {
+    background: #F8F1E5;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
 
 /* Navbar */
 
