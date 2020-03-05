@@ -438,27 +438,6 @@ nav ul li a:hover {
   background-color: white;
 }
 
-.contact-details {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  color: #717171;
-}
-
-.contact-details li {
-  padding-bottom: 10px;
-}
-
-.get {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.get2 {
-  display:flex;
-  justify-content: flex-start;
-}
 
 
 #contact .socials-media {
