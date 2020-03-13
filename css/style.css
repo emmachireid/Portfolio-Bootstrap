@@ -92,6 +92,12 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+.row {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+
 
 p {
   /* margin: 25px 0; */
@@ -153,6 +159,8 @@ p {
   border-radius: 10px;
 }
 
+
+
 /* #portfolio h1 {
   font-family: 'Roboto', sans-serif;
 } */
@@ -180,7 +188,6 @@ nav{
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
 
 
 nav ul li {

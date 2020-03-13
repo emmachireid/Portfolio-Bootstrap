@@ -9,7 +9,7 @@ nav{
 nav ul li a {
     position: relative;
     display: block;
-    font-size: 14px;
+    font-size: 1.6rem;
     color: #292929;
     font-family: 'Montserrat', helvetica;
     font-weight: 500;
@@ -17,6 +17,8 @@ nav ul li a {
     text-transform: lowercase;
     letter-spacing: 0.02em;
   }
+
+
   
   nav ul li a:hover {
     color: #c0a176;
