@@ -32,7 +32,7 @@ a:hover {
 .section-title h2 {
     letter-spacing: 2px;
     text-transform: none;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -46,10 +46,7 @@ li {
     font-family: 'Open Sans';
 }
 
-strong {
-    font-family: 'montserrat';
-    color: black;
-}
+
 
 .subheader {
     font-family: 'Open Sans';

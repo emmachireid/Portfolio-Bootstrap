@@ -15,6 +15,8 @@ body {
   box-sizing: border-box;
 }
 
+
+/* ---General Font------- */
 h1,
 h2,
 h3,
@@ -66,6 +68,7 @@ h4 {
 
 h5 {
   font-size: 2rem;
+  font-weight: 600;
 }
 
 h6 {
@@ -97,11 +100,17 @@ a:focus {
   text-decoration: underline;
 }
 
-.row {
-  margin-top: 2%;
-  margin-bottom: 1%;
+strong {
+  font-family: 'montserrat', sans-serif;
+  font-style: black;
+  color: black;
 }
-
+.section-title h2 {
+  letter-spacing: 2px;
+  text-transform: none;
+  font-weight: 400;
+  color: white;
+}
 
 
 p {
@@ -112,6 +121,16 @@ p {
   line-height: 28px;
   font-family: 'Open Sans';
 }
+
+
+
+.row {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+/* ---------------------- */
+
 
 ::-moz-selection {
   background: #c0a176;
@@ -124,6 +143,7 @@ p {
 }
 
 
+
 .btn:hover,
 .btn:focus {
   color: #fff;
@@ -133,10 +153,6 @@ p {
   padding: 30px 20px;
 }
 
-.section-title {
-  margin-bottom: 50px;
-  margin-top: 3%;
-}
 
 
 #contact {
@@ -217,6 +233,13 @@ nav ul li a:hover {
   color: #292929;
 }
 
+ul li {
+  font-size: 1.6rem;
+}
+
+li{ 
+  color: #717171;
+}
 
 .before-scroll {
   background: transparent;
@@ -478,3 +501,5 @@ nav ul li a:hover {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+
