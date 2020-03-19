@@ -123,11 +123,35 @@ p {
 }
 
 
-
 .row {
   margin-top: 2%;
   margin-bottom: 1%;
 }
+
+
+
+.clickableimg {
+  /* height: 450px; */
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  transition: .3s ease;
+  padding-bottom: 5%;
+  /* backface-visibility: hidden; */
+}
+
+.clickableimg:hover {
+  opacity: 0.6;
+}
+
+blockquote {
+  /* border: 1px solid #717171; */
+  border: 21px solid #c0a176;
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+  border-width: 0 0 0 2px;
+}
+
 
 /* ---------------------- */
 
@@ -279,6 +303,13 @@ li{
 .responsive {
   display: none;
   font-size: 2.3rem;
+}
+
+#colored {
+  background: #F8F1E5;
+  margin-top: 3%;
+  padding-bottom: 2%;
+  padding-top: 1%;
 }
 
 /* .active {
