@@ -486,15 +486,15 @@ li{
 #services {
   background: #f7f2f2;
   background: white;
-  padding-bottom: 7%;
+  /* padding-bottom: 7%; */
   padding-top: 7%;
   width: 100%;
 }
 
 
-#service-icons {
-  height: 40%;
-  width: 40%;
+.service-icons {
+  /* width: 40%; */
+  height: 25%;
 }
 
 
