@@ -105,6 +105,7 @@ strong {
   font-style: black;
   color: black;
 }
+
 .section-title h2 {
   letter-spacing: 2px;
   text-transform: none;
@@ -124,8 +125,8 @@ p {
 
 
 .row {
-  margin-top: 2%;
-  margin-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 
@@ -224,7 +225,7 @@ nav {
   background: transparent;
   z-index: 1000;
   width: 100%;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 .nav-menu {
@@ -274,6 +275,9 @@ li{
   color: #292929;
 }
 
+/* .before-scroll a:hover{
+  color: #c0a176;
+} */
 
 .after-scroll {
   background-color: #fff;
@@ -443,7 +447,7 @@ li{
   height: auto;
   background: #f7f2f2;
   background: white;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
 }
 
