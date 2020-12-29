@@ -369,6 +369,14 @@ li{
 
 #subtext {
   text-transform: lowercase;
+  color: #fff; 
+
+}
+
+#subtext:hover {
+  color: #292929;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 
