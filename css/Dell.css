@@ -163,26 +163,12 @@
     padding-top: 2%;
 }
 
-#proto {
-    width: 100%;
+#images {
+    width: 100%
 }
 
-#findings {
-    width:100%;
-}
-
-#survey {
-    width: 100%;
-}
-
-
-/* #transcriptions {
-    height: 300px;
-    width: 100%;
-} */
-
-#userpersonaimg {
-    width: 100%;
+#images:hover {
+    opacity: 0.6;
 }
 
 #triads {
@@ -193,20 +179,11 @@
     padding-bottom: 2%;
     /* backface-visibility: hidden; */
 }
+
 #triads:hover {
     opacity: 0.6;
 }
 
-#triads2 {
-    width: 100%;
-    height: auto;
-    margin-top: -10%;
-}
-
-#sketches {
-    width: 100%;
-    height: auto;
-}
 
 #midfiresults {
     width: 100%;
@@ -216,6 +193,3 @@
 #donationvideo {
     width: 100%;
 }
-
-
-

@@ -160,69 +160,12 @@ li {
 }
 
 
-#meetingpic {
-    height: auto;
-    width: 100%;
-    ;
-    /* margin-top: 6%; */
-}
-
-#swot {
-    height: 600px;
-    width: 100%;
-}
-
-#usability1 {
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
-}
-
 #surveyimg {
-    /* height: 150px; */
-    /* width: 150px; */
-    width: 70%;
+    width: 60%;
     ;
     height: auto;
 }
 
-#survey {
-    width: 100%;
-}
-
-#transcriptions {
-    height: 300px;
-    width: 100%;
-}
-
-#userpersonaimg {
-    width: 100%;
-    margin-top: -7%;
-}
-
-#empathy {
-    width: 100%;
-    height: 650px;
-    margin-top: -5%;
-}
-
-
-#sitemap {
-    width: 100%;
-    height: 600px;
-}
-
-#storyboard {
-    width: 100%;
-}
-
-#styleguide {
-    width: 100%;
-}
-
-#sketches {
-    width: 100%;
-}
 
 #triads {
     width: 100%;
@@ -232,38 +175,8 @@ li {
     padding-bottom: 2%;
 }
 
-#NavAB {
-    width: 100%;
-}
-
-#phoneicon {
-    height: auto;
-    width: 60px;
-    padding-bottom: 6%;
-    margin-left: 40%;
-}
-
-#laptopicon {
-    height: auto;
-    width: 160px;
-    margin-top: 3%;
-    margin-bottom: 10%;
-    margin-left: 25%;
-}
-
-#navmobilevid {
-    width: 100%;
+#triads:hover {
+    opacity: 0.6;
 }
 
 
-#donationvideo {
-    width: 100%;
-}
-
-/* 
-#problem-research,
-#ideation,
-#design,
-#prototype-future {
-    display: none;
-} */

@@ -125,7 +125,15 @@ p {
   margin-bottom: 1%;
 }
 
-
+.nonclickableimg{
+  /* height: 450px; */
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  transition: .3s ease;
+  padding-bottom: 5%;
+  /* backface-visibility: hidden; */
+}
 
 .clickableimg {
   /* height: 450px; */
