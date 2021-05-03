@@ -62,7 +62,7 @@ h4 {
   margin-bottom: 3%;
   margin-top: 2%;
   font-style: italic;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
 }
 
