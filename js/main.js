@@ -12,7 +12,8 @@ $(document).ready(function() {
   // ========================================================================= //
 
 
-  $(document).on("scroll", onScroll);
+  // $(document).on("scroll", onScroll); 
+         // *******NOTE: commenting the above line helped fix: syntax error: unrecognized expression****
 
   $('a[href^="#"]').on('click', function(e) {
     e.preventDefault();
