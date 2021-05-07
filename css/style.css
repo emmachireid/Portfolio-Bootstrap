@@ -123,6 +123,14 @@ strong {
   color: white;
 }
 
+#sectiontitle{
+  text-decoration: underline;
+  text-decoration-color: #c0a176;
+  text-decoration-style: solid;
+  text-decoration-thickness: 7px;
+  text-underline-offset: 4px;
+}
+
 
 p {
   /* margin: 25px 0; */
