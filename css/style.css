@@ -15,6 +15,10 @@ body {
   box-sizing: border-box;
 }
 
+#spac {
+padding: 0px 150px 0px
+}
+
 
 /* ---General Font------- */
 h1,
@@ -71,6 +75,16 @@ h5 {
   font-size: 1.5rem;
   color: #717171;
 }
+
+h6 {
+  font-family: 'montserrat';
+  font-size: 2rem;
+  /* color: #717171; */
+  color: #080D20;
+  margin-bottom: 3%;
+  font-weight: 600;
+}
+
 
 a {
   color: black;
