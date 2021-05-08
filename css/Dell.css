@@ -164,7 +164,11 @@
 }
 
 #images {
-    width: 100%
+    width: 100%;
+}
+
+#nonclickimages {
+    width: 100%;
 }
 
 #images:hover {
