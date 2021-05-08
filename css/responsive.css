@@ -45,6 +45,10 @@
     display: block;
   }
 
+  #spac {
+    padding: 0px 30px 0px;
+    }
+
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
@@ -128,6 +132,10 @@
     padding-top: 15px;
     display: block;
   }
+
+  #spac {
+    padding: 0px 20px 0px;
+    }
 
   /* About */
   .head-info .header-content h1 {
@@ -216,6 +224,7 @@
     padding-top: 15px;
     display: block;
   }
+
 
   /* About */
   .head-info .header-content h1 {
@@ -320,6 +329,7 @@
     padding-top: 15px;
     display: block;
   }
+
 
   /* About */
   .head-info .header-content h1 {
