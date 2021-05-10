@@ -34,19 +34,21 @@
     letter-spacing: 2px;
     border-radius: 4px;
     border: none;
-    color: black;
+    color: white;
     font-size: 1.2rem;
     font-weight: 500;
     width: 100%;
     margin-top: 5%;
     height: 40px;
     text-transform: uppercase;
-    background-color: #263F9B;
     background-color: #c0a176;
+    background-color: #080D20;
+
 }
 
 .btn:hover {
     background-color: #080D20;
+    background-color: #c0a176;
 }
 
 
