@@ -20,13 +20,7 @@
 
 /* --------Button----------- */
 
-.btn {
-    font-family: 'Montserrat', Helvetica;
-    letter-spacing: 2px;
-    border-radius: 4px;
-    background-color: #292929;
-    width: 100%;
-}
+
 
 
 .btn {
@@ -43,7 +37,6 @@
     text-transform: uppercase;
     background-color: #c0a176;
     background-color: #080D20;
-
 }
 
 .btn:hover {
@@ -51,6 +44,21 @@
     background-color: #c0a176;
 }
 
+.secondary {
+    font-family: 'Montserrat', Helvetica;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: none;
+    color: #080D20;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 5%;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #c0a176;
+    background-color: #aaaaaa;
+}
 
 #back-click {
     height: 15px;
