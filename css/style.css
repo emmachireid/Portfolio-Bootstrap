@@ -1,6 +1,5 @@
 body {
   background: #ffffff;
-  font-family: 'Montserrat', helvetica;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -16,7 +15,7 @@ body {
 }
 
 #spac {
-padding: 0px 100px 0px
+  padding: 0px 100px 0px
 }
 
 
@@ -28,6 +27,8 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family: 'Montserrat', 'helvetica';
+
 }
 
 html {
@@ -42,26 +43,22 @@ h2 {
   font-size: 4rem;
   margin-top: 5%;
   margin-bottom: 2%;
-  text-transform: uppercase;
-  color: #c0a176;
-  letter-spacing: 3px;
+  color: #525252;
+  letter-spacing: 2px;
+  text-transform: none;
   font-weight: 500;
 }
 
 h3 {
-  font-family: 'montserrat';
-  font-size: 2rem;
-  /* color: #717171; */
+  font-size: 2.3rem;
   color: #080D20;
   margin-bottom: 3%;
+  margin-top: 7%;
   font-weight: 600;
-  margin-top: 5%;
 }
 
 h4 {
-  font-family: 'montserrat';
   font-size: 2rem;
-  /* color: #717171; */
   color: #c0a176;
   margin-bottom: 3%;
   /* margin-top: 2%; */
@@ -73,15 +70,12 @@ h4 {
 
 h5 {
   font-size: 1.5rem;
-  color: #717171;
+  color: #525252;
   line-height: 1.6;
-
 }
 
 h6 {
-  font-family: 'montserrat';
-  font-size: 2rem;
-  /* color: #717171; */
+  font-size: 1.7rem;
   color: #080D20;
   margin-bottom: 3%;
   font-weight: 600;
@@ -118,14 +112,8 @@ strong {
   color: black;
 }
 
-.section-title h2 {
-  letter-spacing: 2px;
-  text-transform: none;
-  font-weight: 400;
-  color: white;
-}
 
-#sectiontitle{
+#sectiontitle {
   text-decoration: underline;
   text-decoration-color: #c0a176;
   text-decoration-style: solid;
@@ -137,21 +125,29 @@ strong {
 
 
 p {
-  /* margin: 25px 0; */
-  padding: 0;
-  font-size: 1.6rem;
-  color: #717171;
-  line-height: 28px;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat', helvetica;
+  font-size: 1.5rem;
+  color: #525252;
+  line-height: 1.6;
+  font-weight: 450;
+  padding:0;
 }
 
+li {
+  font-family: 'Montserrat', helvetica;
+  font-size: 1.5rem;
+  color: #525252;
+  line-height: 1.6;
+  font-weight: 450;
+  padding:0;
+}
 
 .row {
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
-.nonclickableimg{
+.nonclickableimg {
   /* height: 450px; */
   height: auto;
   width: 100%;
@@ -175,8 +171,66 @@ p {
   opacity: 0.6;
 }
 
+
+
+.imgContainer {
+  position: relative;
+}
+
+.imgContainer :hover{
+  filter: brightness(0.3);
+}
+
+.imgContainer h3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: white;
+}
+
+.imgContainer:hover h3{
+  display: inline;
+}
+
+
+
+.clickableimg2 {
+  display: block;
+  width: 100%;
+  transition: .3s ease;
+  padding-bottom: 5%;
+  z-index: 100;
+  /* backface-visibility: hidden; */
+}
+
+/* .clickableimg2:hover{
+  filter: brightness(0.6);
+  z-index: -9999;
+
+} */
+
+/* .overlay {
+  position: absolute;
+  padding: inherit;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%; 
+  color: #ffffff
+} */
+
+
+
+
+
+
 blockquote {
-  /* border: 1px solid #717171; */
   border: 21px solid #c0a176;
   margin: 1em 0;
   padding: 0 0 0 2em;
@@ -277,6 +331,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 1.6rem;
+  font-family: 'Montserrat', helvetica;
   color: #292929;
   font-weight: 500;
   line-height: 16px;
@@ -292,8 +347,8 @@ ul li {
   font-size: 1.5rem;
 }
 
-li{ 
-  color: #717171;
+li {
+  color: #525252;
 }
 
 .before-scroll {
@@ -310,7 +365,7 @@ li{
 } */
 
 .after-scroll {
-  background-color:rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   display: block !important;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.08);
 }
@@ -400,7 +455,7 @@ li{
 
 #subtext {
   text-transform: lowercase;
-  color: #fff; 
+  color: #fff;
 
 }
 
@@ -434,7 +489,7 @@ li{
   margin: 0 40px 0 0;
   float: left;
   font-size: 1.5rem;
-  color: #717171;
+  color: #525252;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Montserrat', helvetica;
@@ -516,7 +571,7 @@ li{
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
-  color: #717171;
+  color: #525252;
   margin: 25px 0;
   font-size: 17px;
   line-height: 28px;
@@ -575,5 +630,3 @@ li{
   margin-left: 5%;
   margin-right: 5%;
 }
-
-
