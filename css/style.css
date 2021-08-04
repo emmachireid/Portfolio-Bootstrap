@@ -36,10 +36,6 @@ html {
 }
 
 h1 {
-  font-size: 5rem;
-}
-
-h2 {
   font-size: 4rem;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -49,12 +45,23 @@ h2 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 4rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #080D20;
+  letter-spacing: 2px;
+  text-transform: none;
+  font-weight: 500;
+}
+
 h3 {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   color: #080D20;
   margin-bottom: 3%;
   margin-top: 7%;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -67,18 +74,17 @@ h4 {
   font-weight: 600;
 }
 
-
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #525252;
   line-height: 1.6;
 }
 
 h6 {
   font-size: 1.7rem;
-  color: #080D20;
+  color: #525252;
   margin-bottom: 3%;
-  font-weight: 600;
+  font-weight: 550;
 }
 
 
@@ -264,9 +270,7 @@ blockquote {
 
 
 
-#contact {
-  padding-bottom: 3%;
-}
+
 
 .paddsections {
   padding-top: 90px;
@@ -602,8 +606,14 @@ li {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-  background-color: white;
+  background-color: #F2F4F5;
+  padding-bottom:5%;
+
 }
+
+/* #footertext {
+  color: white;
+} */
 
 
 
@@ -625,8 +635,8 @@ li {
 }
 
 .footerlogo {
-  width: 6%;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+  /* width: 6%;
+  height: auto; */
+  margin-left: 4%;
+  margin-right: 4%;
 }
