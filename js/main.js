@@ -129,21 +129,25 @@ $(window).scroll(function() {
 
 });
 
+
+
 // ========================================================================= //
-//  Porfolio isotope and filter
+//  Scroll to Top on Click
 // ========================================================================= //
-// $(window).load(function(){
+// 
+$(window).scroll(function() {
+  var height = $(window).scrollTop();
+  if (height > 100) {
+      $('#back').fadeIn();
+  } else {
+      $('#back').fadeOut();
+  }
+});
+$(document).ready(function() {
+  $("#back").click(function(event) {
+      event.preventDefault();
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      return false;
+  });
 
-//   var portfolioIsotope = $('.portfolio-container').isotope({
-//     itemSelector: '.portfolio-thumbnail',
-//     layoutMode: 'fitRows'
-//   });
-
-//   $('#portfolio-flters li').on( 'click', function() {
-//     $("#portfolio-flters li").removeClass('filter-active');
-//     $(this).addClass('filter-active');
-
-//     portfolioIsotope.isotope({ filter: $(this).data('filter') });
-//   });
-
-// })
+});
