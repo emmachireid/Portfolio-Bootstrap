@@ -35,13 +35,12 @@
     margin-top: 5%;
     height: 40px;
     text-transform: uppercase;
-    background-color: #c0a176;
     background-color: #080D20;
+    background-color: #8D5A60;
 }
 
 .btn:hover {
     background-color: #080D20;
-    background-color: #c0a176;
 }
 
 .secondary {
@@ -56,8 +55,7 @@
     margin-top: 5%;
     height: 40px;
     text-transform: uppercase;
-    background-color: #c0a176;
-    background-color: #aaaaaa;
+    background-color: #DECACD;
 }
 
 #back-click {

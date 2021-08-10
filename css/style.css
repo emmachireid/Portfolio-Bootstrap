@@ -58,8 +58,9 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
-  color: #080D20;
+  font-size: 2.7rem;
+  color: #B91124;
+  color: #8D5A60;
   margin-bottom: 3%;
   /* margin-top: 7%; */
   font-weight: 600;
@@ -68,7 +69,7 @@ h3 {
 
 h4 {
   font-size: 2.2rem;
-  color: #c0a176;
+  color: #080D20;
   margin-bottom: 3%;
   /* margin-top: 2%; */
   /* font-style: italic; */
@@ -111,7 +112,9 @@ a:hover {
 
 a:hover,
 a:focus {
-  color: #c0a176;
+  /* color: #c0a176; */
+  color: #B91124;
+  color: #8D5A60;
   text-decoration: underline;
 }
 
@@ -124,7 +127,8 @@ strong {
 
 #sectiontitle {
   text-decoration: underline;
-  text-decoration-color: #c0a176;
+  text-decoration-color: #B91124;
+  text-decoration-color: #8D5A60;
   text-decoration-style: solid;
   text-decoration-thickness: 7px;
   text-underline-offset: 4px;
@@ -241,7 +245,7 @@ li {
 
 
 blockquote {
-  border: 21px solid #c0a176;
+  border: 21px solid #8D5A60;
   margin: 1em 0;
   padding: 0 0 0 2em;
   border-width: 0 0 0 2px;
@@ -403,8 +407,7 @@ li {
 }
 
 #colored {
-  /* background: #F8F1E5; */
-  background: #F2F4F5;
+  background: #FAF4F1;
   margin-top: 3%;
   padding-bottom: 2%;
   padding-top: 1%;
@@ -412,6 +415,7 @@ li {
 
 .colored2 {
   background: #292929;
+  background: #DECACD;
   padding: 4% 2% 2%;
 }
 
@@ -487,7 +491,6 @@ li {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
-  /* background: #f7f2f2; */
 }
 
 #portfolio .portfolio-list {
@@ -553,23 +556,19 @@ li {
 /*-----------------------------------------------------------------------------------*/
 
 #about {
-  width: 100%;
-  height: auto;
-  background: #f7f2f2;
-  background: white;
   padding-top: 3%;
   padding-bottom: 5%;
 }
 
 #about .div-img-bg {
   padding-bottom: 5%;
-  border: 20px solid #c0a176;
+  border: 20px solid #8D5A60;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
+  margin-top: -50px;
   margin-left: 40px;
   height: 400px;
   object-fit: cover;
@@ -598,7 +597,7 @@ li {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f2f2;
+  background: #FAF4F1;
   background: white;
   /* padding-bottom: 7%; */
   padding-top: 7%;
@@ -618,14 +617,14 @@ li {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
-  background-color: #F2F4F5;
+  background-color: #FAF4F1;
   /* padding-bottom:5%; */
 
 }
 
-/* #footertext {
-  color: white;
-} */
+#footertext {
+  padding-top:2%;
+}
 
 
 
