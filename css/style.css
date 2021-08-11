@@ -59,7 +59,6 @@ h2 {
 
 h3 {
   font-size: 2.7rem;
-  color: #B91124;
   color: #8D5A60;
   margin-bottom: 3%;
   /* margin-top: 7%; */
@@ -93,7 +92,7 @@ h6 {
 
 
 a {
-  color: black;
+  color: #080D20;
   text-decoration: none;
   -moz-transition: all 0.2s ease-in-out 0s;
   -ms-transition: all 0.2s ease-in-out 0s;
@@ -120,8 +119,8 @@ a:focus {
 
 strong {
   font-family: 'montserrat', sans-serif;
-  font-style: black;
-  color: black;
+  font-style: #080D20;
+  color: #080D20;
 }
 
 
@@ -184,8 +183,6 @@ li {
   opacity: 0.6;
 }
 
-
-
 .imgContainer {
   position: relative;
 }
@@ -206,12 +203,13 @@ li {
   padding: 0;
   color: white;
   margin-top: -2%;
+  /* transition: all .2s ease-in-out; */
+
 }
 
 .imgContainer:hover h3 {
   display: inline;
 }
-
 
 
 .clickableimg2 {
@@ -256,13 +254,13 @@ blockquote {
 
 
 ::-moz-selection {
-  background: #c0a176;
+  /* background: #8D5A60; */
   color: #fff;
 }
 
 ::selection {
-  background: #c0a176;
-  color: #fff;
+  /* background: #8D5A60; */
+  /* color: #fff; */
 }
 
 
@@ -270,10 +268,6 @@ blockquote {
 .btn:hover,
 .btn:focus {
   color: #fff;
-}
-
-.padDiv {
-  padding: 30px 20px;
 }
 
 
@@ -285,28 +279,12 @@ blockquote {
   padding-bottom: 90px !important;
 }
 
-.hvr-shutter-in-horizontal::before {
-  background: #333;
-}
-
-.hvr-shutter-in-horizontal:hover {
-  background: #c0a176;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
 #portfolio-container {
   background-color: white;
   border-radius: 10px;
 }
 
 
-
-/* #portfolio h1 {
-  font-family: 'Roboto', sans-serif;
-} */
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -351,9 +329,6 @@ nav ul li a {
   letter-spacing: 0.02em;
 }
 
-nav ul li a:hover {
-  color: #292929;
-}
 
 ul li {
   font-size: 1.5rem;
@@ -369,12 +344,9 @@ li {
 }
 
 .before-scroll a:hover {
-  color: #292929;
+  color: #8D5A60;
 }
 
-/* .before-scroll a:hover{
-  color: #c0a176;
-} */
 
 .after-scroll {
   background-color: rgba(255, 255, 255, 0.9);
@@ -387,7 +359,7 @@ li {
 }
 
 .after-scroll a:hover {
-  color: #292929;
+  color: #8D5A60;
 }
 
 
@@ -416,7 +388,7 @@ li {
 .colored2 {
   background: #292929;
   background: #DECACD;
-  padding: 4% 2% 2%;
+  padding: 4% 3% 2%;
 }
 
 /* .active {
@@ -522,7 +494,7 @@ li {
 
 #portfolio .portfolio-list .nav li:hover,
 #portfolio .portfolio-list .nav li.filter-active {
-  color: #c0a176;
+  color: #8D5A60;
   -moz-transition: all 0.2s ease-in-out 0s;
   -ms-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
