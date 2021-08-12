@@ -310,7 +310,7 @@ nav ul li a {
   display: block;
   font-size: 1.6rem;
   font-family: 'Montserrat', helvetica;
-  color: #292929;
+  color: #080D20;
   font-weight: 500;
   line-height: 16px;
   text-transform: lowercase;
@@ -343,7 +343,7 @@ li {
 }
 
 .after-scroll a {
-  color: #292929;
+  color: #080D20;
 }
 
 .after-scroll a:hover {
@@ -374,13 +374,20 @@ li {
 }
 
 .colored2 {
-  background: #292929;
+  background: #080D20;
   background: #DECACD;
-  padding: 4% 3% 2%;
+  padding: 4% 4% 3%;
+  margin-top: 40px;
+  margin-bottom:40px;
+}
+
+#process {
+  padding: 3% 0% 0% !important;
+  margin-bottom:0px !important;
 }
 
 /* .active {
-  color: #292929;
+  color: #080D20;
 } */
 
 /*----------------------------------------------------------------------------------*/
@@ -438,7 +445,7 @@ li {
 }
 
 #subtext:hover {
-  color: #292929;
+  color: #080D20;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -538,7 +545,7 @@ li {
   /* font-family: 'Roboto', serif; */
   font-size: 2.8rem;
   text-align: left;
-  color: #292929;
+  color: #080D20;
   font-weight: bold;
 }
 
