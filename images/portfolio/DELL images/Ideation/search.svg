@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="149" viewBox="0 0 134 149">
+  <defs>
+    <filter id="Rectangle_426" x="0" y="0" width="134" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="search" transform="translate(8.531 6)">
+    <g transform="matrix(1, 0, 0, 1, -8.53, -6)" filter="url(#Rectangle_426)">
+      <rect id="Rectangle_426-2" data-name="Rectangle 426" width="116" height="131" rx="5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <text id="Search_products_to_purchase" data-name="Search products 
+to purchase" transform="translate(57.469 101)" font-size="10" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-42.82" y="0">Search products </tspan><tspan x="-30.065" y="9">to purchase</tspan></text>
+    <path id="_ionicons_svg_ios-search" d="M102.158,99.726,91.42,88.886A15.3,15.3,0,1,0,89.1,91.239l10.668,10.769a1.653,1.653,0,0,0,2.333.06A1.663,1.663,0,0,0,102.158,99.726ZM79.394,91.37a12.084,12.084,0,1,1,8.547-3.539A12.009,12.009,0,0,1,79.394,91.37Z" transform="translate(-24.837 -35.021)" fill="#516ebf"/>
+  </g>
+</svg>

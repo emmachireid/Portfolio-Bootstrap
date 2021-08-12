@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133" height="149" viewBox="0 0 133 149">
+  <defs>
+    <filter id="Rectangle_426" x="0" y="0" width="133" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="create_account" data-name="create account" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_426)">
+      <rect id="Rectangle_426-2" data-name="Rectangle 426" width="115" height="131" rx="5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <text id="Create_account-2" data-name="Create 
+account" transform="translate(57 102)" font-size="10" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-17.965" y="0">Create </tspan><tspan x="-20.67" y="9">account</tspan></text>
+    <g id="person-circle-outline" transform="translate(30.122 22.165)">
+      <path id="Path_712" data-name="Path 712" d="M75.89,47.983a27.525,27.525,0,1,0,27.137,27.142A27.561,27.561,0,0,0,75.89,47.983Zm16.728,43.3a.529.529,0,0,1-.812-.042,16.444,16.444,0,0,0-4.281-3.915,23.217,23.217,0,0,0-24.038,0,16.44,16.44,0,0,0-4.281,3.914.529.529,0,0,1-.812.042A23.2,23.2,0,0,1,52.218,75.9a23.29,23.29,0,1,1,46.577-.4,23.2,23.2,0,0,1-6.177,15.779Z" transform="translate(-47.981 -47.981)" fill="#4f6cc2"/>
+      <path id="Path_713" data-name="Path 713" d="M197.008,144a8.745,8.745,0,0,0-8.97,9.626c.384,5.194,4.408,9.428,8.97,9.428s8.578-4.234,8.97-9.427a8.889,8.889,0,0,0-2.339-6.857A8.986,8.986,0,0,0,197.008,144Z" transform="translate(-169.482 -131.295)" fill="#4f6cc2"/>
+    </g>
+  </g>
+</svg>

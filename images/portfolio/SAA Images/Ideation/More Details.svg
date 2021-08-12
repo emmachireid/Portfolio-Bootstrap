@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="252" viewBox="0 0 232 252">
+  <defs>
+    <filter id="Rectangle_438" x="0" y="0" width="232" height="252" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="info-circle-solid" x="75.181" y="64.619" width="82.047" height="82.047" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="More_Details" data-name="More Details" transform="translate(-66 2644)">
+    <g transform="matrix(1, 0, 0, 1, 66, -2644)" filter="url(#Rectangle_438)">
+      <rect id="Rectangle_438-2" data-name="Rectangle 438" width="142" height="162" rx="5" transform="translate(45 45)" fill="#fff"/>
+    </g>
+    <text id="Increase_Details_about_opportunities" data-name="Increase Details 
+about opportunities" transform="translate(121 -2494)" font-size="10" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="19.21" y="10">Increase Details</tspan><tspan y="10" font-family="Montserrat-Regular, Montserrat" font-weight="400"> </tspan><tspan font-family="Montserrat-Regular, Montserrat" font-weight="400"><tspan x="10.725" y="26">about opportunities</tspan></tspan></text>
+    <g id="information_detail_icon" data-name="information/detail icon" transform="translate(150.181 -2573.381)">
+      <rect id="Rectangle_205" data-name="Rectangle 205" width="46.716" height="60.656" transform="translate(8.906 3.391)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, -84.18, -70.62)" filter="url(#info-circle-solid)">
+        <path id="info-circle-solid-2" data-name="info-circle-solid" d="M40.023,8A32.023,32.023,0,1,0,72.047,40.023,32.028,32.028,0,0,0,40.023,8Zm0,14.2A5.423,5.423,0,1,1,34.6,27.627,5.423,5.423,0,0,1,40.023,22.2ZM47.254,55a1.55,1.55,0,0,1-1.55,1.55H34.342A1.55,1.55,0,0,1,32.792,55V51.9a1.55,1.55,0,0,1,1.55-1.55h1.55V42.089h-1.55a1.55,1.55,0,0,1-1.55-1.55v-3.1a1.55,1.55,0,0,1,1.55-1.55h8.264a1.55,1.55,0,0,1,1.55,1.55V50.353H45.7a1.55,1.55,0,0,1,1.55,1.55Z" transform="translate(76.18 62.62)" fill="#4f6cc2"/>
+      </g>
+    </g>
+  </g>
+</svg>
